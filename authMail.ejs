@@ -1,0 +1,14 @@
+<html>
+	<body>
+		<div style="font-size: 30px; font-weight: bold;">DEVzine:Port</div>
+		<div>
+			<div>
+				서비스 이용약관
+				<br>
+				<%= authCode %>
+			</div>
+			<a href="<%= SERVER_ENDPOINT %>/authmail/<%= authCode %>">accept signup</a>
+			<p style="color:gray">30분 후 만료됨</p>
+		</div>
+	</body>
+</html>
